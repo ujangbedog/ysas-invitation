@@ -20,7 +20,7 @@ function MyApp({Component, pageProps}: AppProps) {
   const router = useRouter();
   const {place} = router.query;
 
-  const imgUrl = 'https://rikafariz-wedding.vercel.app/img/hero-is.png';
+  const imgUrl = 'https://ysas-invitation.vercel.app/img/hero-is.png';
 
   return (
     <>
