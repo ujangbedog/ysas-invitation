@@ -20,7 +20,7 @@ function MyApp({Component, pageProps}: AppProps) {
   const router = useRouter();
   const {place} = router.query;
 
-  const imgUrl = 'https://ysas-invitation.vercel.app/img/hero-is.png';
+  const imgUrl = 'https://ysas-invitation.vercel.app/img/logo.ico';
 
   return (
     <>
@@ -44,12 +44,12 @@ function MyApp({Component, pageProps}: AppProps) {
         />
         <meta
           property="og:title"
-          content={'Yayasan Sanusiah Al-mansyuriah Sumedang'}
+          content={'Undangan Musyawarah Besar'}
           key="ogtitle"
         />
         <meta
           property="og:description"
-          content={'Judul "Menuju Lentera Perdaban Dunia”'}
+          content={'Yayasan Sanusiah Al-mansyuriah Sumedang'}
           key="ogdesc"
         />
       </Head>
