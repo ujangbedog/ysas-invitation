@@ -20,7 +20,6 @@ function MyApp({Component, pageProps}: AppProps) {
   const router = useRouter();
   const {place} = router.query;
 
-  const coupleName = place === 'kdr' ? 'Fariz & Rika' : 'Rika & Fariz';
   const imgUrl = 'https://rikafariz-wedding.vercel.app/img/web-thumb.jpg';
 
   return (
@@ -29,7 +28,7 @@ function MyApp({Component, pageProps}: AppProps) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>The Wedding - {coupleName}</title>
+        <title>Invitation</title>
 
         {/* Open Graph */}
         <meta
