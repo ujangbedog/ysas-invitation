@@ -20,7 +20,7 @@ function MyApp({Component, pageProps}: AppProps) {
   const router = useRouter();
   const {place} = router.query;
 
-  const imgUrl = 'https://rikafariz-wedding.vercel.app/img/web-thumb.jpg';
+  const imgUrl = 'https://rikafariz-wedding.vercel.app/img/hero-is.png';
 
   return (
     <>
@@ -33,23 +33,23 @@ function MyApp({Component, pageProps}: AppProps) {
         {/* Open Graph */}
         <meta
           property="og:url"
-          content={'https://rikafariz-wedding.vercel.app'}
+          content={'https://ysas-invitation.vercel.app/'}
           key="ogurl"
         />
         <meta property="og:image" content={imgUrl} key="ogimage" />
         <meta
           property="og:site_name"
-          content={'Wedding Invitation'}
+          content={'Undangan Musyawarah Besar'}
           key="ogsitename"
         />
         <meta
           property="og:title"
-          content={'This is Our Wedding'}
+          content={'Yayasan Sanusiah Al-mansyuriah Sumedang'}
           key="ogtitle"
         />
         <meta
           property="og:description"
-          content={'We invited you to celebrate our wedding!'}
+          content={'Judul "Menuju Lentera Perdaban Dunia”'}
           key="ogdesc"
         />
       </Head>
