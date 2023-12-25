@@ -33,7 +33,7 @@ body {
 
 .aycawd-fullbg {
   height: 100vh;
-  background: url('/img/open.png') no-repeat center center scroll;
+  background: url('/img/cover-home.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
