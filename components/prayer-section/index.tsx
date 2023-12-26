@@ -25,14 +25,10 @@ const PrayerSection = (props: PrayerProps) => {
                   بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
                 </Card.Title>
                 <Card.Text className="text text-center mb-5 px-5">
-                  “Dan diantara tanda-tanda kekuasaan-Nya ialah diciptakan Nya
-                  untukmu pasangan hidup dari jenismu sendiri supaya kamu
-                  mendapat ketenangan hati dan dijadikan-Nya kasih sayang
-                  diantara kamu. Sesungguhnya yang demikian menjadi tanda-tanda
-                  kebesaran-Nya bagi orang-orang yang berfikir.”
+                  Kami berfirman, “Turunlah kamu semua dari surga! Lalu, jika benar-benar datang petunjuk-Ku kepadamu, siapa saja yang mengikuti petunjuk-Ku tidak ada rasa takut yang menimpa mereka dan mereka pun tidak bersedih hati.”
                 </Card.Text>
                 <Card.Text className="text text-center">
-                  (QS. Ar-Rum: 21)
+                  (QS. Al-Baqarah: 38)
                 </Card.Text>
               </Card.Body>
             </Card>
