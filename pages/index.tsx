@@ -5,19 +5,10 @@ import FrontCover from '../components/front-cover';
 import {useRouter} from 'next/router';
 import WelcomeSection from '../components/welcome-section';
 import PrayerSection from '../components/prayer-section';
-import CoupleSection from '../components/couple-section';
-import BrownSection from '../components/brown-section';
 import EventSection from '../components/event-section';
-import CountdownSection from '../components/countdown-section';
 import OurStorySection from '../components/our-story-section';
-import FloatingQR from '../components/floating-qr';
-import FloatingToggleMusic from '../components/floating-toggle-music';
 import FloatingScrollUp from '../components/floating-scrollup';
-import GallerySection from '../components/gallery-section';
-import ConfirmSection from '../components/confirm-section';
-import GreetingsSection from '../components/greetings-section';
 import FooterSection from '../components/footer-section';
-import ModalProtocol from '../components/modal-protocol';
 // import {useAudio} from '../utils/helper';
 import {
   dtCouple,
@@ -112,8 +103,8 @@ const Home = () => {
     <>
       {showCover ? (
         <FrontCover
-          femaleName="Asep"
-          maleName="Jajang"
+          femaleName=""
+          maleName=""
           guestName={guestName}
           place={placeName}
           onClick={() => {
@@ -130,12 +121,7 @@ const Home = () => {
             onScrollDownClick={goScrollDown}
           />
           <PrayerSection scrollDownRef={scrollDownRef} />
-          {/* <CoupleSection
-            data={dtCouple}
-            place={placeName}
-            isMobile={isMobile}
-          /> */}
-          {/* <BrownSection /> */}
+
           <EventSection
             eventTlg={eventTlg}
             eventKdr={eventKdr}
@@ -143,28 +129,12 @@ const Home = () => {
             place={placeName}
             session={sessionNum}
           />
-          {/* <CountdownSection
-            eventTlg={eventTlg}
-            eventKdr={eventKdr}
-            place={placeName}
-            isMobile={isMobile}
-          /> */}
+
           <OurStorySection storyData={storyData} isMobile={isMobile} />
-          {/* <GallerySection imgGallery={imgGallery} />
-          {guestName !== '' && (
-            <ConfirmSection guestName={guestName} place={placeName} />
-          )}
-          <GreetingsSection /> */}
+
           <FooterSection place={placeName} />
-          {/* <FloatingQR
-            show={showQR}
-            onClick={onShowQR}
-            onHide={onHideQR}
-            place={placeName}
-          /> */}
-          {/* <FloatingToggleMusic toggle={toggle} playing={playing} /> */}
+
           {visibleScrollTop && <FloatingScrollUp onClick={goScrollUp} />}
-          {/* <ModalProtocol show={showProtocol} place={placeName} /> */}
         </>
       )}
     </>

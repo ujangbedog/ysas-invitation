@@ -43,11 +43,10 @@ const EventSection = (props: EventProps) => {
                 <img src="/img/ico-location.png" className="ico-ring mb-4" />
                 <Card.Title className="title mt-2 mb-4">Lokasi</Card.Title>
                 <Card.Text className="text mb-3">
-                  Rumah Mempelai Wanita (Kawan Jaya)
+                  Mesjid Al-Ikhlas
                 </Card.Text>
                 <Card.Text className="text-small">
-                  Desa Tawangsari RT 02 RW 03, Kec. Kedungwaru, Kab.
-                  Tulungagung, Jawa Timur 66227
+                  Dsn pangjeleran RT 03/04, Desa, Cigintung, Kec. Cisitu, Kabupaten Sumedang
                 </Card.Text>
                 <div className="d-flex justify-content-center">
                   <a href={props.eventTlg.location} target="_blank">
@@ -55,7 +54,7 @@ const EventSection = (props: EventProps) => {
                       variant="light"
                       size="sm"
                       className="btn-open-invit">
-                      View Map
+                      Lihat Map
                     </Button>
                   </a>
                 </div>
@@ -137,7 +136,7 @@ const EventSection = (props: EventProps) => {
                   segenap kerendahan hati,
                   <br />
                   perkenankanlah kami mengundang Bapak/Ibu/Saudara/i untuk hadir
-                  di acara pernikahan kami
+                  di acara musyawarah besar terkait Yayasan Sanusiah Al-mansyuriah Sumedang
                   <br />
                   yang akan dilaksanakan pada:
                 </p>
@@ -145,7 +144,8 @@ const EventSection = (props: EventProps) => {
                 <p className="head-text text-center mb-4">
                   Dengan memohon Rahmat Allah Subhanahu wa Ta’ala dan dengan
                   segenap kerendahan hati, perkenankanlah kami mengundang
-                  Bapak/Ibu/Saudara/i untuk hadir di acara pernikahan kami yang
+                  Bapak/Ibu/Saudara/i untuk hadir di acara musyawarah besar 
+                  terkait Yayasan Sanusiah Al-mansyuriah Sumedang yang
                   akan dilaksanakan pada:
                 </p>
               )}

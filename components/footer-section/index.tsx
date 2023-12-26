@@ -14,11 +14,6 @@ const FooterSection = (props: FooterProps) => {
       <Container>
         <Row className="my-3">
           <Col md={12}>
-            <div className="footer-content">
-              <p className="mb-1 text-center text-white welcome-wd-place">
-                Sampai Jumpa Di Hari Bahagia Kami
-              </p>
-            </div>
             <div className="copyright">
               <div className="content">
                 <p className="text-white text-center">

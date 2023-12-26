@@ -27,11 +27,11 @@ const FrontCover = (props: FrontCoverProps) => {
               </p>
               {props.place === 'kdr' ? (
                 <h4 className="mb-1 text-center text-white wd-couplename font-weight-bold">
-                  Untuk Melakukan Rapat Negara
+                  Untuk Melakukan Musyawarah Besar
                 </h4>
               ) : (
                 <h4 className="mb-1 text-center text-white wd-couplename font-weight-bold">
-                  Untuk Melakukan Rapat Negara
+                  Untuk Melakukan Musyawarah Besar
                 </h4>
               )}
               {props.guestName.length !== 0 && (
@@ -49,7 +49,7 @@ const FrontCover = (props: FrontCoverProps) => {
                   size="sm"
                   className="btn-open-invit"
                   onClick={props.onClick}>
-                  Open Invitation
+                  Buka Undangan
                 </Button>
               </div>
             </div>

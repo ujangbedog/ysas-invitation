@@ -23,15 +23,15 @@ const WelcomeSection = (props: WelcomeProps) => {
             <div className="welcome-content">
               <div data-aos="fade-down" data-aos-duration="2000">
                 <h4 className="mb-3 text-center text-white wd-couplename font-weight-bold">
-                  RAPAT NEGARA KESATUAN NKRI
+                  Musyawarah Besar Yayasan Sanusiah Al-mansyuriah Sumedang
                 </h4>
                 <p className="mb-1 text-center text-white welcome-wd-place">
-                  Rapat | 29 Desember 2023 | Pangjeleran
+                  Judul: "Menuju Lentera Peradaban Dunia"
                 </p>
               </div>
               <div className="link-toscroll" onClick={props.onScrollDownClick}>
                 <p className="text-center text-white scroll-text mb-1">
-                  Scroll down
+                  Kebawah
                 </p>
                 <div className="text-center icon-down">
                   <FontAwesomeIcon
