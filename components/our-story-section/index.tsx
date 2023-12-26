@@ -143,7 +143,7 @@ const OurStorySection = (props: OurStoryProps) => {
                   data-aos="fade-up"
                   data-aos-duration="2000">
                   <img
-                    src="/img/first-meet.jpg"
+                    src="/img/pray.png"
                     className="d-block img-holder mb-4"
                   />
                   <h4 className="mb-4">
@@ -158,7 +158,7 @@ const OurStorySection = (props: OurStoryProps) => {
                   data-aos="fade-up"
                   data-aos-duration="2000">
                   <img
-                    src="/img/fall-love.jpg"
+                    src="/img/coffee-break.png"
                     className="d-block img-holder mb-4"
                   />
                   <h4 className="mb-4">
@@ -175,7 +175,7 @@ const OurStorySection = (props: OurStoryProps) => {
                   data-aos="fade-up"
                   data-aos-duration="2000">
                   <img
-                    src="/img/engagement.jpg"
+                    src="/img/praying.png"
                     className="d-block img-holder mb-4"
                   />
                   <h4 className="mb-4">
@@ -190,7 +190,7 @@ const OurStorySection = (props: OurStoryProps) => {
                   data-aos="fade-up"
                   data-aos-duration="2000">
                   <img
-                    src="/img/goes-to-married.jpg"
+                    src="/img/event.png"
                     className="d-block img-holder mb-4"
                   />
                   <h4 className="mb-4">
@@ -203,7 +203,7 @@ const OurStorySection = (props: OurStoryProps) => {
             <Row className="py-3 mb-5">
               <Col md={6}>
                 <img
-                  src="/img/first-meet.jpg"
+                  src="/img/end.png"
                   className="d-block img-holder"
                   data-aos="fade-right"
                   data-aos-duration="2000"
@@ -231,7 +231,7 @@ const OurStorySection = (props: OurStoryProps) => {
               </Col>
               <Col md={6}>
                 <img
-                  src="/img/goes-to-married.jpg"
+                  src="/img/dinner.png"
                   className="d-block img-holder"
                   data-aos="fade-left"
                   data-aos-duration="2000"
