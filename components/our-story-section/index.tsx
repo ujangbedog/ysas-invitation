@@ -165,7 +165,7 @@ const OurStorySection = (props: OurStoryProps) => {
                      {props.storyData.dua.title}
                   </h4>
                   <p className="mb-5">
-                    {props.storyData.dua.desc} &#129315;
+                    {props.storyData.dua.desc}
                   </p>
                 </div>
               </Col>
