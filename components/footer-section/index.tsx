@@ -26,7 +26,7 @@ const FooterSection = (props: FooterProps) => {
                     variant="light"
                     size="sm"
                     className="btn-open-invit">
-                    Download Rundown
+                    Download Rundown Acara
                   </Button>
                 </a>
               </div>
