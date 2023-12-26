@@ -84,7 +84,7 @@ body {
 
 .welcome-fullbg {
   height: 100vh;
-  background: url('/img/hero-is.jpg') no-repeat center center scroll;
+  background: url('/img/cover-event.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
