@@ -1,11 +1,12 @@
 import React from 'react';
-import {Col, Container, Row} from 'react-bootstrap';
+import {Col, Container, Row, Button} from 'react-bootstrap';
 import {faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 interface FooterProps {
   place: string;
+  rundown: any;
 }
 
 const FooterSection = (props: FooterProps) => {
@@ -18,6 +19,17 @@ const FooterSection = (props: FooterProps) => {
               <p className="mb-1 text-center text-white welcome-wd-place">
                 Sampai Jumpa Di Hari Musyawarah Nanti!
               </p>
+              <br />
+              <div className="d-flex justify-content-center">
+                <a href="/doc/RUNDOWN_ACARA.docx" target="_blank">
+                  <Button
+                    variant="light"
+                    size="sm"
+                    className="btn-open-invit">
+                    Download Rundown
+                  </Button>
+                </a>
+              </div>
             </div>
             <div className="copyright">
               <div className="content">

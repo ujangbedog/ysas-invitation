@@ -15,6 +15,7 @@ import {
   eventTlg,
   eventKdr,
   storyData,
+  rundown,
   imgGallery,
 } from '../config/data';
 
@@ -132,7 +133,7 @@ const Home = () => {
 
           <OurStorySection storyData={storyData} isMobile={isMobile} />
 
-          <FooterSection place={placeName} />
+          <FooterSection place={placeName} rundown={rundown}/>
 
           {visibleScrollTop && <FloatingScrollUp onClick={goScrollUp} />}
         </>

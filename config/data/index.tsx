@@ -33,6 +33,10 @@ export const eventKdr = {
   location: 'https://maps.app.goo.gl/esYLxeZFYUCoTNAJ9',
 };
 
+export const rundown = {
+  location: 'https://ysas-invitation.vercel.app/doc/RUNDOWN_ACARA.docx',
+};
+
 export const storyData = {
   satu: {
     title: 'Pembukaan | 16:00 - 17:00',
