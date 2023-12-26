@@ -24,13 +24,13 @@ export const dtCouple = [
 export const eventTlg = {
   startResepsi: moment('2022-11-19 12:00'),
   endResepsi: moment('2022-11-19 15:00'),
-  location: 'https://maps.app.goo.gl/GuNWQCL9GyHxyzKb6',
+  location: 'https://maps.app.goo.gl/esYLxeZFYUCoTNAJ9',
 };
 
 export const eventKdr = {
-  start: moment('2023-12-29 13:00'),
+  start: moment('2023-12-29 16:00'),
   end: moment('2022-11-26 17:00'),
-  location: 'https://maps.app.goo.gl/1jsuAhE9zRceu7CdA',
+  location: 'https://maps.app.goo.gl/esYLxeZFYUCoTNAJ9',
 };
 
 export const storyData = {

@@ -29,7 +29,7 @@ const EventSection = (props: EventProps) => {
                 </Card.Text>
                 <Card.Text className="text-small">
                   {props.eventKdr.start.format('HH:mm')} WIB -{' '}
-                  {props.eventKdr.end.format('HH:mm')} WIB
+                  Selesai
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -80,7 +80,7 @@ const EventSection = (props: EventProps) => {
                 </Card.Text>
                 <Card.Text className="text-small">
                   {props.eventKdr.start.format('HH:mm')} WIB -{' '}
-                  {props.eventKdr.end.format('HH:mm')} WIB
+                  Selesai
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -94,11 +94,10 @@ const EventSection = (props: EventProps) => {
                 <img src="/img/ico-location.png" className="ico-ring mb-4" />
                 <Card.Title className="title mt-2 mb-4">Lokasi</Card.Title>
                 <Card.Text className="text mb-3">
-                  Rumah Mempelai Wanita (Kawan Jaya)
+                  Mesjid Al-Ikhlas
                 </Card.Text>
                 <Card.Text className="text-small">
-                  Desa Tawangsari RT 02 RW 03, Kec. Kedungwaru, Kab.
-                  Tulungagung, Jawa Timur 66227
+                  Dsn pangjeleran RT 03/04, Desa, Cigintung, Kec. Cisitu, Kabupaten Sumedang
                 </Card.Text>
                 <div className="d-flex justify-content-center">
                   <a href={props.eventTlg.location} target="_blank">

@@ -26,7 +26,7 @@ const WelcomeSection = (props: WelcomeProps) => {
                   RAPAT NEGARA KESATUAN NKRI
                 </h4>
                 <p className="mb-1 text-center text-white welcome-wd-place">
-                  Rapat | 29 Desember 2023 | Buricak Burinong
+                  Rapat | 29 Desember 2023 | Pangjeleran
                 </p>
               </div>
               <div className="link-toscroll" onClick={props.onScrollDownClick}>
